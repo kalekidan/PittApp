@@ -9,7 +9,7 @@
                 tools:context=".MainActivity">
 
     <TextView
-        android:text="Welcome to..."
+        android:text="@string/welcometo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="40dp"
@@ -20,7 +20,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Refill"
+        android:text="@string/ref"
         android:id="@+id/button2"
         android:layout_marginTop="54dp"
         android:layout_below="@+id/textView2"
@@ -30,16 +30,16 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bill"
+        android:text="@string/bill"
         android:id="@+id/button3"
         android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/button2"
-        android:layout_alignEnd="@+id/button2"/>
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Survey"
+        android:text="@string/survey"
         android:id="@+id/button4"
         android:layout_alignTop="@+id/button2"
         android:layout_alignParentRight="true"
@@ -48,7 +48,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Menu"
+        android:text="@string/menu"
         android:id="@+id/button5"
         android:layout_alignBottom="@+id/button3"
         android:layout_alignParentRight="true"
