@@ -49,9 +49,11 @@ public class ScanActivity extends ActionBarActivity {
                 String contents = data.getStringExtra("SCAN_RESULT");
                 String format = data.getStringExtra("SCAN_RESULT_FORMAT");
                 Toast.makeText(getApplicationContext(), contents, Toast.LENGTH_SHORT).show();
-                // TODO: Do something here with it
+
+                Intent intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
             }
-       // Intent intent = new Intent(this.)
+
 
     }
 
