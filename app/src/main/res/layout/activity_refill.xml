@@ -8,20 +8,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Refill your water"
-        android:id="@+id/button"
+        android:id="@+id/mWaterButton"
         android:layout_gravity="center_horizontal"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Refill your breadsticks"
-        android:id="@+id/button6"
+        android:id="@+id/mBreadsticksButton"
         android:layout_gravity="center_horizontal"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Other"
-        android:id="@+id/button7"
+        android:id="@+id/mOtherButton"
         android:layout_gravity="center_horizontal"/>
 </LinearLayout>
