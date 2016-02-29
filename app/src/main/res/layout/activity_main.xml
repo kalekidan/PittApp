@@ -20,7 +20,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ref"
+        android:text="@string/refill"
         android:id="@+id/refill_button"
         android:layout_marginTop="54dp"
         android:layout_below="@+id/textView2"

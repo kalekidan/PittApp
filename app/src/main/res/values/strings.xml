@@ -11,7 +11,8 @@
     <string name="survey">Survey</string>
     <string name="menu">Menu</string>
     <string name="bill">Bill</string>
-    <string name="ref">Test</string>
+    <string name="refill">Refill</string>
     <string name="welcome">WELCOME</string>
+    <string name="title_activity_survey">SurveyActivity</string>
 
 </resources>
