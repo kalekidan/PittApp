@@ -15,6 +15,7 @@ public class MainActivity extends ActionBarActivity {
 
     private Button mSurveyButton;
     private Button mRefillButton;
+    private Button mMenuButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,7 @@ public class MainActivity extends ActionBarActivity {
 
         mSurveyButton = (Button) findViewById(R.id.survey_button);
         mRefillButton = (Button) findViewById(R.id.refill_button);
+        mMenuButton = (Button) findViewById(R.id.menu_button);
 
         mSurveyButton.setOnClickListener(new View.OnClickListener() {
             @Override
