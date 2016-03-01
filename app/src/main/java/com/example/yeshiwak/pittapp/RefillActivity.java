@@ -1,6 +1,7 @@
 package com.example.yeshiwak.pittapp;
 
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
@@ -11,7 +12,6 @@ public class RefillActivity extends MainActivity {
     private Button mBreadsticksButton;
     private Button mWaterButton;
     private Button mOtherButton;
-
 
     private Button mRefillButton;
     @Override
@@ -25,8 +25,14 @@ public class RefillActivity extends MainActivity {
         mOtherButton = (Button) findViewById(R.id.mOtherButton);
 
 
-        mRefillButton.setOnClickListener(new MyRefillListener());
+        mRefillButton.setOnClickListener(new myRefillListener());}
 
+    private class myRefillListener implements View.OnClickListener {
+            @Override
+            public void onClick(View v) {
 
-    }
+                
+
+            }
+        }
 }

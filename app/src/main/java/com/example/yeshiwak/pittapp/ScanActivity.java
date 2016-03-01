@@ -53,8 +53,6 @@ public class ScanActivity extends ActionBarActivity {
                 Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
             }
-
-
     }
 
 

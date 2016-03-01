@@ -14,6 +14,7 @@ import android.widget.Button;
 public class MainActivity extends ActionBarActivity {
 
     private Button mSurveyButton;
+    private Button mRefillButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         mSurveyButton = (Button) findViewById(R.id.survey_button);
+        mRefillButton = (Button) findViewById(R.id.refill_button);
 
         mSurveyButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,9 +30,10 @@ public class MainActivity extends ActionBarActivity {
                 Intent intent = new Intent(MainActivity.this, SurveyActivity.class);
 
                 startActivity(intent);
-
             }
         });
+
+
     }
 
 
@@ -57,4 +60,14 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
-}
+
+    private class myRefillListener implements View.OnClickListener{
+        @Override
+        public void onClick(View v){
+            Intent intent = new Intent(MainActivity.this, RefillActivity.class);
+            startActivity(intent);
+        }
+
+    }
+        }
+
